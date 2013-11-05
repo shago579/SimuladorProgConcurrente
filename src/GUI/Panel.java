@@ -34,5 +34,8 @@ public class Panel extends JPanel {
 		add(label, BorderLayout.NORTH);
 		add(scroll, BorderLayout.CENTER);
 	}
-
+	
+	public void addText(String text){
+		textArea.append(text);
+	}
 }
